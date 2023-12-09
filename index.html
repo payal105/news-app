@@ -1,0 +1,102 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<title>News App</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/3.1.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1d5b66556a.js" crossorigin="anonymous"></script>
+	</head>
+
+	<body>
+
+		<div class="page">
+			<h1>Your News Capsule</h1>			
+	
+			
+			<!-- tabs -->
+			<div class="pcss3t pcss3t-effect-scale pcss3t-theme-1">
+				<input type="radio" name="pcss3t" checked  id="tab1"class="tab-content-first">
+				<label for="tab1"><i class="icon-globe"></i>General</label>
+				
+				<input type="radio" name="pcss3t" id="tab2" class="tab-content-2">
+				<label for="tab2"><i class="fa-solid fa-heart-pulse"></i>Health</label>
+				
+				<!-- <input type="radio" name="pcss3t" id="tab3" class="tab-content-3">
+				<label for="tab3"><i class="fa-solid fa-vial-virus"></i>Science</label> -->
+				
+				<input type="radio" name="pcss3t" id="tab4" class="tab-content-4">
+				<label for="tab4"><i class="fa-solid fa-trophy"></i>Sports</label>
+				
+                <input type="radio" name="pcss3t" id="tab5" class="tab-content-5">
+				<label for="tab5"><i class="fa-solid fa-gears"></i>Science/Technology</label>
+
+                <input type="radio" name="pcss3t" id="tab6" class="tab-content-last">
+				<label for="tab6"><i class="fa-solid fa-tv"></i>Entertainment</label>
+
+                <input type="radio" name="pcss3t" id="tab7" class="tab-content-7">
+				<label for="tab7"><i class="fa-solid fa-business-time"></i>Business</label>
+
+                <input type="radio" name="pcss3t" id="tab8" class="tab-content-8">
+				<label for="tab8"><i class="fa-solid fa-search"></i>Search</label>
+
+				<ul>
+					<li class="tab-content tab-content-first typography">
+						<h1>General</h1>
+						<p class="general-news">
+
+                        </p>
+					</li>
+					
+					<li class="tab-content tab-content-2 typography">
+						<h1>Health</h1>
+						<p class="health-news"></p>
+					</li>
+					
+					<li class="tab-content tab-content-3 typography">
+						
+										
+					</li>
+					<li class="tab-content tab-content-4 typography">
+						
+						<h1>Sports</h1>
+                        
+						<p class="sports-news"></p>
+					</li>
+					
+                    <li class="tab-content tab-content-5 typography">
+						<h1>Science & Technology</h1>
+                        <p class="technology-news"></p>
+						<p class="science-news"></p>
+						
+					</li>
+
+					<li class="tab-content tab-content-last typography">
+						<h1>Entertainment</h1>
+							
+						<p class="entertainment-news"></p>
+					</li>
+
+					<li class="tab-content tab-content-7 typography">
+						<h1>Business</h1>
+							
+						<p class="business-news"></p>
+					</li>
+
+					<li class="tab-content tab-content-8 typography">
+						<h1>Search News Articles</h1>
+                        <input type="text" id="searchInput" required style="padding: 10px; border-radius: 110px; border: 2px solid lightblue; width: 200px;" placeholder="Enter text here...">
+                        <button type="button" onclick="searchNews()" style="color: #fff; background: purple; padding:10px; margin-top: 10px;border-radius: 20px;cursor: pointer;">Search</button>
+                        <br>
+                        <br>
+						<p class="search-news"></p>
+					</li>
+				</ul>
+			</div>
+			<!--/ tabs -->
+		</div>
+
+        <script src="script.js"></script>
+	</body>
+</html>
